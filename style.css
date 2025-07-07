@@ -301,6 +301,29 @@ footer {
     padding: 20px;
 }
 
+/*Botón volver arriba*/
+#btnVolverArriba {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #0d6efd;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#btnVolverArriba:hover {
+    background-color: #0b5ed7;
+}
+
+
 /* Adaptable responsivo */
 @media screen and (max-width: 400px) {
     .overlay p {
